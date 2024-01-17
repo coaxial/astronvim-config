@@ -9,4 +9,8 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "schtibe/taxi.vim",
+    event = "BufRead *.tks",
+  },
 }
