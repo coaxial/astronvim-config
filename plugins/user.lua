@@ -11,6 +11,6 @@ return {
   -- },
   {
     "schtibe/taxi.vim",
-    event = "BufRead *.tks",
+    ft = "taxi",
   },
 }
