@@ -13,4 +13,10 @@ return {
     "schtibe/taxi.vim",
     ft = "taxi",
   },
+  {
+    "nelsyeung/twig.vim",
+  },
+  {
+    "Glench/Vim-Jinja2-Syntax",
+  },
 }
