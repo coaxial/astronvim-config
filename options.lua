@@ -2,11 +2,15 @@
 return {
   opt = {
     -- set to true or false etc.
-    relativenumber = true, -- sets vim.opt.relativenumber
+    colorcolumn = "+0", -- show a color column at textwidth
+    linebreak = true, -- wrap text at end of word
+    list = false, -- don't display whitespace chars as text
     number = true, -- sets vim.opt.number
-    spell = false, -- sets vim.opt.spell
+    relativenumber = false, -- sets vim.opt.relativenumber
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
-    wrap = false, -- sets vim.opt.wrap
+    spell = false, -- sets vim.opt.spell
+    textwidth = 80, -- this is the way, 120 is too much
+    wrap = true, -- sets vim.opt.wrap
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
