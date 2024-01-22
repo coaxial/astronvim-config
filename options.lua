@@ -7,6 +7,7 @@ return {
     list = false, -- don't display whitespace chars as text
     number = true, -- sets vim.opt.number
     relativenumber = false, -- sets vim.opt.relativenumber
+    scrolloff = 999, -- Centers cursor vertically
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     spell = false, -- sets vim.opt.spell
     textwidth = 80, -- this is the way, 120 is too much
