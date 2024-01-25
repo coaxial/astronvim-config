@@ -13,10 +13,11 @@ return {
     "schtibe/taxi.vim",
     ft = "taxi",
   },
+  "nelsyeung/twig.vim",
+  "Glench/Vim-Jinja2-Syntax",
   {
-    "nelsyeung/twig.vim",
-  },
-  {
-    "Glench/Vim-Jinja2-Syntax",
+    "heavenshell/vim-jsdoc",
+    build = "make install",
+    ft = { "javascript", "typescript", "javascript.jsx" },
   },
 }
