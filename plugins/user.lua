@@ -20,4 +20,8 @@ return {
     build = "make install",
     ft = { "javascript", "typescript", "javascript.jsx" },
   },
+  {
+    "f-person/git-blame.nvim",
+    event = "VeryLazy",
+  },
 }
