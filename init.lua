@@ -27,6 +27,27 @@ return {
   },
 
   lsp = {
+    config = {
+      emmet_ls = {
+        filetypes = {
+          "astro",
+          "css",
+          "eruby",
+          "html",
+          "htmldjango",
+          "javascriptreact",
+          "less",
+          "php",
+          "pug",
+          "sass",
+          "scss",
+          "svelte",
+          "twig",
+          "typescriptreact",
+          "vue",
+        },
+      },
+    },
     -- customize lsp formatting options
     formatting = {
       -- control auto formatting on save
