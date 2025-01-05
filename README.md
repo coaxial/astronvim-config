@@ -1,4 +1,4 @@
-# My AstroNvim User Configuration
+# My AstroNvim User Configuration (AstroNvim v4)
 
 My user configuration template for
 [AstroNvim](https://github.com/AstroNvim/AstroNvim)
@@ -10,6 +10,8 @@ My user configuration template for
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
+mv ~/.local/state/nvim ~/.local/state/nvim.bak
+mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
 #### Clone AstroNvim
@@ -17,7 +19,6 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 ```shell
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 cd ~/.config/nvim
-git checkout v3.45.3 # This template is not yet compatible with AstroNvim v4
 ```
 
 #### Clone the repository
