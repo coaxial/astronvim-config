@@ -23,7 +23,7 @@ git checkout v3.45.3 # This template is not yet compatible with AstroNvim v4
 #### Clone the repository
 
 ```shell
-git clone https://github.com/coaxial/astronvim-config> ~/.config/nvim/lua/user
+git clone https://github.com/coaxial/astronvim-config ~/.config/nvim/lua/user
 ```
 
 #### Start Neovim
