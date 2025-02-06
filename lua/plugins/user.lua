@@ -83,7 +83,7 @@ return {
       virtual_text = {
         enabled = true,
         key_bindings = {
-          accept = "<C-l>",
+          accept = "<C-g>",
           close = "<Esc>",
           next = "<C-n>",
           prev = "<C-p>",

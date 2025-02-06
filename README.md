@@ -39,7 +39,7 @@ nvim
 
 | Plugin  | Keymap                         | Action              |
 | ------- | ------------------------------ | ------------------- |
-| Codeium | <kbd>Ctrl</kbd> + <kbd>l</kbd> | Accept suggestion   |
+| Codeium | <kbd>Ctrl</kbd> + <kbd>g</kbd> | Accept suggestion   |
 | Codeium | <kbd>Esc</kbd>                 | Close               |
 | Codeium | <kbd>Ctrl</kbd> + <kbd>n</kbd> | Next suggestion     |
 | Codeium | <kbd>Ctrl</kbd> + <kbd>p</kbd> | Previous suggestion |
