@@ -34,3 +34,12 @@ It will install everything that's missing.
 ```shell
 nvim
 ```
+
+#### Configuration
+
+| Plugin  | Keymap                         | Action              |
+| ------- | ------------------------------ | ------------------- |
+| Codeium | <key>Ctrl</key> + <key>l</key> | Accept suggestion   |
+| Codeium | <key>Esc</key>                 | Close               |
+| Codeium | <key>Ctrl</key> + <key>n</key> | Next suggestion     |
+| Codeium | <key>Ctrl</key> + <key>p</key> | Previous suggestion |

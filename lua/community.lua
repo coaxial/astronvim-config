@@ -9,4 +9,5 @@ return {
   -- import/override with your plugins folder
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.completion.codeium-nvim" },
 }

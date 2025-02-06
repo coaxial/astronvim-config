@@ -76,4 +76,19 @@ return {
       )
     end,
   },
+
+  {
+    "ExaFunction/codeium.nvim",
+    opts = {
+      virtual_text = {
+        enabled = true,
+        key_bindings = {
+          accept = "<C-l>",
+          close = "<Esc>",
+          next = "<C-n>",
+          prev = "<C-p>",
+        },
+      },
+    },
+  },
 }
