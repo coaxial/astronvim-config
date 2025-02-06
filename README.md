@@ -35,7 +35,7 @@ It will install everything that's missing.
 nvim
 ```
 
-#### Configuration
+## Configuration
 
 | Plugin  | Keymap                         | Action              |
 | ------- | ------------------------------ | ------------------- |
