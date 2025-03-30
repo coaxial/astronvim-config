@@ -10,4 +10,5 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.recipes.ai" },
+  { import = "astrocommunity.pack.json" },
 }
