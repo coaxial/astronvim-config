@@ -79,6 +79,7 @@ return {
 
   {
     "ExaFunction/codeium.nvim",
+    enabled = false,
     opts = {
       virtual_text = {
         enabled = true,
@@ -89,6 +90,20 @@ return {
           prev = "<C-p>",
         },
       },
+    },
+  },
+  
+  {
+    "joshuavial/aider.nvim",
+    event = "VeryLazy",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-telescope/telescope.nvim",
+    },
+    opts = {
+      auto_manage_context = true,
+      default_bindings = true,
+      debug = false,
     },
   },
 }
