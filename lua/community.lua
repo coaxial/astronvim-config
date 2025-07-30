@@ -11,4 +11,5 @@ return {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.recipes.ai" },
   { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.cpp" },
 }
