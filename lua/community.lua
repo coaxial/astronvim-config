@@ -12,4 +12,5 @@ return {
   { import = "astrocommunity.recipes.ai" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
 }
