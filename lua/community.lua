@@ -18,4 +18,5 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.terraform" },
+  { import = "astrocommunity.pack.ansible" },
 }
