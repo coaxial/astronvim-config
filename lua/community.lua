@@ -9,9 +9,13 @@ return {
   -- import/override with your plugins folder
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.recipes.ai" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.ruby" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.terraform" },
 }
