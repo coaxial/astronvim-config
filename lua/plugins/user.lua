@@ -124,5 +124,7 @@ return {
         { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
       },
     },
+
+    { "Mofiqul/dracula.nvim" },
   },
 }
