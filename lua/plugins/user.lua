@@ -126,5 +126,19 @@ return {
     },
 
     { "Mofiqul/dracula.nvim" },
+
+    {
+      "nvimtools/none-ls.nvim",
+      opts = {
+        temp_dir = vim.fn.stdpath "cache" .. "/null-ls",
+      },
+      config = function(_, opts)
+        -- Ensure the temp directory exists
+        local temp_dir = opts.temp_dir or vim.fn.stdpath "cache" .. "/null-ls"
+        vim.fn.mkdir(temp_dir, "p")
+
+        require("null-ls").setup(opts)
+      end,
+    },
   },
 }
