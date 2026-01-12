@@ -105,40 +105,40 @@ return {
       default_bindings = true,
       debug = false,
     },
+  },
 
-    {
-      "christoomey/vim-tmux-navigator",
-      cmd = {
-        "TmuxNavigateLeft",
-        "TmuxNavigateDown",
-        "TmuxNavigateUp",
-        "TmuxNavigateRight",
-        "TmuxNavigatePrevious",
-        "TmuxNavigatorProcessList",
-      },
-      keys = {
-        { "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>" },
-        { "<c-j>", "<cmd><C-U>TmuxNavigateDown<cr>" },
-        { "<c-k>", "<cmd><C-U>TmuxNavigateUp<cr>" },
-        { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
-        { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
-      },
+  {
+    "christoomey/vim-tmux-navigator",
+    cmd = {
+      "TmuxNavigateLeft",
+      "TmuxNavigateDown",
+      "TmuxNavigateUp",
+      "TmuxNavigateRight",
+      "TmuxNavigatePrevious",
+      "TmuxNavigatorProcessList",
     },
-
-    { "Mofiqul/dracula.nvim" },
-
-    {
-      "nvimtools/none-ls.nvim",
-      opts = {
-        temp_dir = vim.fn.stdpath "cache" .. "/null-ls",
-      },
-      config = function(_, opts)
-        -- Ensure the temp directory exists
-        local temp_dir = opts.temp_dir or vim.fn.stdpath "cache" .. "/null-ls"
-        vim.fn.mkdir(temp_dir, "p")
-
-        require("null-ls").setup(opts)
-      end,
+    keys = {
+      { "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>" },
+      { "<c-j>", "<cmd><C-U>TmuxNavigateDown<cr>" },
+      { "<c-k>", "<cmd><C-U>TmuxNavigateUp<cr>" },
+      { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
+      { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
     },
+  },
+
+  { "Mofiqul/dracula.nvim" },
+
+  {
+    "nvimtools/none-ls.nvim",
+    opts = {
+      temp_dir = vim.fn.stdpath "cache" .. "/null-ls",
+    },
+    config = function(_, opts)
+      -- Ensure the temp directory exists
+      local temp_dir = opts.temp_dir or vim.fn.stdpath "cache" .. "/null-ls"
+      vim.fn.mkdir(temp_dir, "p")
+
+      require("null-ls").setup(opts)
+    end,
   },
 }
