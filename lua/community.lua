@@ -19,4 +19,6 @@ return {
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.pack.ansible" },
+  { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.biome" },
 }
