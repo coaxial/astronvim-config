@@ -141,4 +141,24 @@ return {
       require("null-ls").setup(opts)
     end,
   },
+  {
+    "AstroNvim/astrocore",
+    opts = {
+      autocmds = {
+        -- Use tabs for indenting Makefiles
+        makefile_tabs = {
+          {
+            event = "FileType",
+            pattern = "make",
+            callback = function()
+              vim.opt_local.expandtab = false
+              vim.opt_local.tabstop = 4
+              vim.opt_local.shiftwidth = 4
+              vim.opt_local.softtabstop = 0
+            end,
+          },
+        },
+      },
+    },
+  },
 }
