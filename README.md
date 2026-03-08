@@ -14,17 +14,10 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
-#### Clone AstroNvim
-
-```shell
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-cd ~/.config/nvim
-```
-
 #### Clone the repository
 
 ```shell
-git clone https://github.com/coaxial/astronvim-config ~/.config/nvim/lua/user
+git clone https://github.com/coaxial/astronvim-config ~/.config/nvim
 ```
 
 #### Start Neovim
