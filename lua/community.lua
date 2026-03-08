@@ -21,4 +21,5 @@ return {
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.biome" },
+  { import = "astrocommunity.pack.php" },
 }
