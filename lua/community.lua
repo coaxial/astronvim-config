@@ -10,7 +10,6 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.markdown" },
-  { import = "astrocommunity.recipes.ai" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.ruby" },
