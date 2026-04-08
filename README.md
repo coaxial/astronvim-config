@@ -28,11 +28,7 @@ It will install everything that's missing.
 nvim
 ```
 
-## Configuration
+## Updating AstroNvim (major versions)
 
-| Plugin  | Keymap                         | Action              |
-| ------- | ------------------------------ | ------------------- |
-| Codeium | <kbd>Ctrl</kbd> + <kbd>g</kbd> | Accept suggestion   |
-| Codeium | <kbd>Esc</kbd>                 | Close               |
-| Codeium | <kbd>Ctrl</kbd> + <kbd>n</kbd> | Next suggestion     |
-| Codeium | <kbd>Ctrl</kbd> + <kbd>p</kbd> | Previous suggestion |
+Update `lua/lazy_setup.lua` and change the AstroNvim version string to `^<major
+version to target>`.
