@@ -7,7 +7,13 @@ return {
   {
     "ray-x/lsp_signature.nvim",
     event = "BufRead",
-    config = function() require("lsp_signature").setup() end,
+    config = function()
+      require("lsp_signature").setup {
+        -- Fixes cursor always moving one char short of the end of the line
+        -- and blinking function signature/JSDoc help popup
+        cursorhold_update = false,
+      }
+    end,
   },
 
   -- You can disable default plugins as follows:
