@@ -54,7 +54,6 @@
   "schemastore.nvim": { "branch": "main", "commit": "6d0329adb9c8cbe51b9a28299890a5eb104db7dc" },
   "smart-splits.nvim": { "branch": "master", "commit": "0bd02161ee5c5378bf4133fcedf53d1fc4179e1d" },
   "snacks.nvim": { "branch": "main", "commit": "e6fd58c82f2f3fcddd3fe81703d47d6d48fc7b9f" },
-  "supermaven-nvim": { "branch": "main", "commit": "07d20fce48a5629686aefb0a7cd4b25e33947d50" },
   "telescope.nvim": { "branch": "master", "commit": "7ef4d6dccb78ee71e552bbd866176762ad328afa" },
   "todo-comments.nvim": { "branch": "main", "commit": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668" },
   "toggleterm.nvim": { "branch": "main", "commit": "50ea089fc548917cc3cc16b46a8211833b9e3c7c" },
