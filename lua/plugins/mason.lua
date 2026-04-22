@@ -10,7 +10,9 @@ return {
       ensure_installed = {
         "lua_ls",
         "emmet_ls",
-        -- add more arguments for adding more language servers
+        "pyright",
+        "gopls",
+        "rust_analyzer",
       },
     },
   },
@@ -21,7 +23,8 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
-        -- add more arguments for adding more null-ls sources
+        "black",
+        "gofmt",
       },
     },
   },
