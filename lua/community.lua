@@ -20,6 +20,7 @@ return {
   { import = "astrocommunity.pack.terraform" },
   { import = "astrocommunity.pack.ansible" },
   { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.biome" },
   { import = "astrocommunity.pack.php" },
 }

@@ -8,12 +8,8 @@ return {
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
       ensure_installed = {
-        "lua_ls",
         "emmet_ls",
-        "pyright",
-        "gopls",
         "rust_analyzer",
-        "ansible-language-server",
       },
     },
   },
@@ -25,6 +21,7 @@ return {
         "stylua",
         "black",
         "goimports",
+        "prettier",
       },
     },
   },

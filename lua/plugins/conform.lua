@@ -3,6 +3,9 @@ return {
   "stevearc/conform.nvim",
   event = "VeryLazy",
   opts = {
+    formatters = {
+      biome = { require_cwd = true },
+    },
     formatters_by_ft = {
       lua = { "stylua" },
       python = { "black" },
