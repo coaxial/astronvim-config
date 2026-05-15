@@ -23,4 +23,5 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.biome" },
   { import = "astrocommunity.pack.php" },
+  { import = "astrocommunity.pack.sql" },
 }

@@ -10,6 +10,7 @@ return {
           hide_by_name = {
             ".git", -- Only hide the .git directory
           },
+          never_show_by_pattern = { ".null-ls_*" },
         },
       },
     },
