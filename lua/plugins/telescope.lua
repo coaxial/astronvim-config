@@ -4,7 +4,7 @@ return {
     opts = {
       pickers = {
         find_files = {
-          file_ignore_patterns = {},
+          file_ignore_patterns = { ".git" },
           hidden = true,
           respect_gitignore = true,
         },

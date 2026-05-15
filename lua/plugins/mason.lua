@@ -13,18 +13,18 @@ return {
         "pyright",
         "gopls",
         "rust_analyzer",
+        "ansible-language-server",
       },
     },
   },
-  -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources
+  -- use mason-tool-installer to install formatters/linters/tools
   {
-    "jay-babu/mason-null-ls.nvim",
-    -- overrides `require("mason-null-ls").setup(...)`
+    "WhoIsSethDaniel/mason-tool-installer.nvim",
     opts = {
       ensure_installed = {
         "stylua",
         "black",
-        "gofmt",
+        "goimports",
       },
     },
   },
