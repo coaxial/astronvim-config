@@ -154,4 +154,8 @@ return {
       vim.keymap.set("n", "-", "<C-x>", { desc = "Decrement under cursor", noremap = true })
     end,
   },
+
+  {
+    "grafana/vim-alloy",
+  },
 }
