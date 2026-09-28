@@ -29,7 +29,7 @@ return {
       graphql = { "prettier" },
     },
     format_on_save = {
-      timeout_ms = 5000,
+      timeout_ms = 30000,
       lsp_format = "fallback",
     },
   },

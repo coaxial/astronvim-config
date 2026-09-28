@@ -41,6 +41,9 @@ return {
           "vue",
         },
       },
+      sqls = {
+        cmd = { "sqls", "--config", ".sqls/config.yml" },
+      },
     },
     -- customize how language servers are attached
     handlers = {

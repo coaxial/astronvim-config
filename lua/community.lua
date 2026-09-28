@@ -24,4 +24,5 @@ return {
   { import = "astrocommunity.pack.biome" },
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.toml" },
 }
