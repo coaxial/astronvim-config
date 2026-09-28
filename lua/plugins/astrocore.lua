@@ -42,6 +42,20 @@ return {
         -- This can be found in the `lua/lazy_setup.lua` file
       },
     },
+    autocmds = {
+      makefile_tabs = {
+        {
+          event = "FileType",
+          pattern = "make",
+          callback = function()
+            vim.opt_local.expandtab = false
+            vim.opt_local.tabstop = 4
+            vim.opt_local.shiftwidth = 4
+            vim.opt_local.softtabstop = 0
+          end,
+        },
+      },
+    },
     -- Mappings can be configured through AstroCore as well.
     -- NOTE: keycodes follow the casing in the vimdocs. For example, `<Leader>` must be capitalized
     mappings = {
