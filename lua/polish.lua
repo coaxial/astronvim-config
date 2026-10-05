@@ -24,3 +24,5 @@ vim.filetype.add {
   --   ["~/%.config/foo/.*"] = "fooscript",
   -- },
 }
+
+vim.g.alloy_fmt_on_save = false
